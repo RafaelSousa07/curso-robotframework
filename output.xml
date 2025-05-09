@@ -1,161 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.12.8 on win32)" generated="2025-03-03T18:14:13.716388" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.12.8 on win32)" generated="2025-04-28T18:09:09.441866" rpa="false" schemaversion="5">
 <suite id="s1" name="Primeiro Teste" source="C:\Users\rafae\OneDrive\Área de Trabalho\Curso-Robot\primeiro_teste.robot">
 <test id="s1-t1" name="Abrir navegador e acessar o site do organo" line="5">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-03-03T18:14:14.508437" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:3000/'.</msg>
-<msg time="2025-03-03T18:14:19.362383" level="WARN">There was an error managing chromedriver (Acesso negado. (os error 5)); using driver found in the cache</msg>
-<msg time="2025-03-03T18:14:24.661771" level="INFO">Cannot capture screenshot because no browser is open.</msg>
-<msg time="2025-03-03T18:14:24.661771" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 127
-Current browser version is 133.0.6943.142 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Stacktrace:
-	GetHandleVerifier [0x00007FF68D299632+30946]
-	(No symbol) [0x00007FF68D24E3C9]
-	(No symbol) [0x00007FF68D146FDA]
-	(No symbol) [0x00007FF68D187341]
-	(No symbol) [0x00007FF68D186598]
-	(No symbol) [0x00007FF68D18148D]
-	(No symbol) [0x00007FF68D17C4FA]
-	(No symbol) [0x00007FF68D1C78B9]
-	(No symbol) [0x00007FF68D1C6F20]
-	(No symbol) [0x00007FF68D1BC813]
-	(No symbol) [0x00007FF68D18A6E5]
-	(No symbol) [0x00007FF68D18B021]
-	GetHandleVerifier [0x00007FF68D3CF83D+1301229]
-	GetHandleVerifier [0x00007FF68D3DBDB7+1351783]
-	GetHandleVerifier [0x00007FF68D3D2A03+1313971]
-	GetHandleVerifier [0x00007FF68D2CDD06+245686]
-	(No symbol) [0x00007FF68D25758F]
-	(No symbol) [0x00007FF68D253804]
-	(No symbol) [0x00007FF68D253992]
-	(No symbol) [0x00007FF68D24A3EF]
-	BaseThreadInitThunk [0x00007FFE2306E8D7+23]
-	RtlUserThreadStart [0x00007FFE23C3BF2C+44]
-</msg>
+<msg time="2025-04-28T18:09:09.668465" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:3000/'.</msg>
 <arg>url=http://localhost:3000/</arg>
 <arg>browser=Chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="FAIL" start="2025-03-03T18:14:14.507437" elapsed="10.160155">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 127
-Current browser version is 133.0.6943.142 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Stacktrace:
-	GetHandleVerifier [0x00007FF68D299632+30946]
-	(No symbol) [0x00007FF68D24E3C9]
-	(No symbol) [0x00007FF68D146FDA]
-	(No symbol) [0x00007FF68D187341]
-	(No symbol) [0x00007FF68D186598]
-	(No symbol) [0x00007FF68D18148D]
-	(No symbol) [0x00007FF68D17C4FA]
-	(No symbol) [0x00007FF68D1C78B9]
-	(No symbol) [0x00007FF68D1C6F20]
-	(No symbol) [0x00007FF68D1BC813]
-	(No symbol) [0x00007FF68D18A6E5]
-	(No symbol) [0x00007FF68D18B021]
-	GetHandleVerifier [0x00007FF68D3CF83D+1301229]
-	GetHandleVerifier [0x00007FF68D3DBDB7+1351783]
-	GetHandleVerifier [0x00007FF68D3D2A03+1313971]
-	GetHandleVerifier [0x00007FF68D2CDD06+245686]
-	(No symbol) [0x00007FF68D25758F]
-	(No symbol) [0x00007FF68D253804]
-	(No symbol) [0x00007FF68D253992]
-	(No symbol) [0x00007FF68D24A3EF]
-	BaseThreadInitThunk [0x00007FFE2306E8D7+23]
-	RtlUserThreadStart [0x00007FFE23C3BF2C+44]
-</status>
+<status status="PASS" start="2025-04-28T18:09:09.667354" elapsed="2.381933"/>
 </kw>
-<status status="FAIL" start="2025-03-03T18:14:14.505356" elapsed="10.163241">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 127
-Current browser version is 133.0.6943.142 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Stacktrace:
-	GetHandleVerifier [0x00007FF68D299632+30946]
-	(No symbol) [0x00007FF68D24E3C9]
-	(No symbol) [0x00007FF68D146FDA]
-	(No symbol) [0x00007FF68D187341]
-	(No symbol) [0x00007FF68D186598]
-	(No symbol) [0x00007FF68D18148D]
-	(No symbol) [0x00007FF68D17C4FA]
-	(No symbol) [0x00007FF68D1C78B9]
-	(No symbol) [0x00007FF68D1C6F20]
-	(No symbol) [0x00007FF68D1BC813]
-	(No symbol) [0x00007FF68D18A6E5]
-	(No symbol) [0x00007FF68D18B021]
-	GetHandleVerifier [0x00007FF68D3CF83D+1301229]
-	GetHandleVerifier [0x00007FF68D3DBDB7+1351783]
-	GetHandleVerifier [0x00007FF68D3D2A03+1313971]
-	GetHandleVerifier [0x00007FF68D2CDD06+245686]
-	(No symbol) [0x00007FF68D25758F]
-	(No symbol) [0x00007FF68D253804]
-	(No symbol) [0x00007FF68D253992]
-	(No symbol) [0x00007FF68D24A3EF]
-	BaseThreadInitThunk [0x00007FFE2306E8D7+23]
-	RtlUserThreadStart [0x00007FFE23C3BF2C+44]
-</status>
+<status status="PASS" start="2025-04-28T18:09:09.666189" elapsed="2.384098"/>
 </test>
 <test id="s1-t2" name="Preencher os campos do formulário" line="8">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-03-03T18:14:24.672038" level="INFO">Typing text 'Akemi' into text field 'id:form-nome'.</msg>
-<msg time="2025-03-03T18:14:24.672038" level="INFO">Cannot capture screenshot because no browser is open.</msg>
-<msg time="2025-03-03T18:14:24.672038" level="FAIL">No browser is open.</msg>
+<msg time="2025-04-28T18:09:12.051286" level="INFO">Typing text 'Akemi' into text field 'id:form-nome'.</msg>
 <arg>id:form-nome</arg>
 <arg>Akemi</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="FAIL" start="2025-03-03T18:14:24.670941" elapsed="0.003344">No browser is open.</status>
+<status status="PASS" start="2025-04-28T18:09:12.051286" elapsed="0.179817"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-04-28T18:09:12.231103" level="INFO">Typing text 'Desenvolvedora' into text field 'id:form-cargo'.</msg>
 <arg>id:form-cargo</arg>
 <arg>Desenvolvedora</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" start="2025-03-03T18:14:24.674285" elapsed="0.000000"/>
+<status status="PASS" start="2025-04-28T18:09:12.231103" elapsed="0.168578"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-04-28T18:09:12.401182" level="INFO">Typing text 'https://picsum.photos/200/300' into text field 'id:form-imagem'.</msg>
 <arg>id:form-imagem</arg>
 <arg>https://picsum.photos/200/300</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" start="2025-03-03T18:14:24.674285" elapsed="0.000000"/>
+<status status="PASS" start="2025-04-28T18:09:12.399681" elapsed="0.223410"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-04-28T18:09:12.624502" level="INFO">Clicking element 'class:lista-suspensa'.</msg>
 <arg>class:lista-suspensa</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2025-03-03T18:14:24.675423" elapsed="0.000000"/>
+<status status="PASS" start="2025-04-28T18:09:12.623091" elapsed="0.157881"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-04-28T18:09:12.782692" level="INFO">Clicking element '//option[contains(.,'Programação')]'.</msg>
 <arg>//option[contains(.,'Programação')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2025-03-03T18:14:24.675423" elapsed="0.000000"/>
+<status status="PASS" start="2025-04-28T18:09:12.782184" elapsed="0.076870"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
+<msg time="2025-04-28T18:09:22.860165" level="INFO">Slept 10 seconds.</msg>
 <arg>10s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2025-03-03T18:14:24.675423" elapsed="0.000000"/>
+<status status="PASS" start="2025-04-28T18:09:12.860159" elapsed="10.000006"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-04-28T18:09:22.861335" level="INFO">Clicking element 'id:form-botao'.</msg>
 <arg>id:form-botao</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2025-03-03T18:14:24.676546" elapsed="0.000000"/>
+<status status="PASS" start="2025-04-28T18:09:22.861335" elapsed="0.092807"/>
 </kw>
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2025-04-28T18:09:22.986127" level="INFO">Element 'class:colaborador' is displayed.</msg>
 <arg>class:colaborador</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="NOT RUN" start="2025-03-03T18:14:24.676546" elapsed="0.000000"/>
+<status status="PASS" start="2025-04-28T18:09:22.955461" elapsed="0.030666"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
+<msg time="2025-04-28T18:09:27.986329" level="INFO">Slept 5 seconds.</msg>
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2025-03-03T18:14:24.676546" elapsed="0.000000"/>
+<status status="PASS" start="2025-04-28T18:09:22.986127" elapsed="5.000202"/>
 </kw>
-<status status="FAIL" start="2025-03-03T18:14:24.670941" elapsed="0.006598">No browser is open.</status>
+<status status="PASS" start="2025-04-28T18:09:12.050287" elapsed="15.936548"/>
 </test>
-<status status="FAIL" start="2025-03-03T18:14:13.736596" elapsed="10.942265"/>
+<status status="PASS" start="2025-04-28T18:09:09.444508" elapsed="18.543678"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="2" skip="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Primeiro Teste" id="s1" pass="0" fail="2" skip="0">Primeiro Teste</stat>
+<stat name="Primeiro Teste" id="s1" pass="2" fail="0" skip="0">Primeiro Teste</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-03-03T18:14:19.362383" level="WARN">There was an error managing chromedriver (Acesso negado. (os error 5)); using driver found in the cache</msg>
 </errors>
 </robot>
