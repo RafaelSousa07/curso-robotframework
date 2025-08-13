@@ -1,0 +1,7 @@
+Executar o Organo
+Cmd : C:\Users\rafae\OneDrive\Área de Trabalho\Organo
+npm start --Escrever no cmd para executar o site Organo
+
+========================================================
+Para executar o teste
+No terminal do VS escrever "robot [nome do arquivo].robot"
