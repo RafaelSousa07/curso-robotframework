@@ -5,3 +5,8 @@ npm start --Escrever no cmd para executar o site Organo
 ========================================================
 Para executar o teste
 No terminal do VS escrever "robot [nome do arquivo].robot"
+
+=========================================================
+Instalar o FakerLibrary
+Library        FakerLibrary
+pip install robotframework-faker

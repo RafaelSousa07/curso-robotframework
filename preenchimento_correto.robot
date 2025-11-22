@@ -36,8 +36,8 @@ Verificar se é possivel criar mais de um card se preenchermos os campos correta
 
 Dado que preencha os campos do formulário
     Input Text       ${CAMPO_NOME}       Akemi
-    Input Text       ${CAMPO_CARGO}      Desenvolvedora 
-    Input Text       ${CAMPO_IMAGEM}     https://picsum.photos/200/300
+    Input Text       ${CAMPO_CARGO}      Desenvolvedora
+    Input Text       ${CAMPO_IMAGEM}     https://picsum.photos/200/300 
     Click Element    ${CAMPO_TIME}
     Click Element    ${PROGRAMACAO}
 
